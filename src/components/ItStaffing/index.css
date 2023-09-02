@@ -1,0 +1,111 @@
+.page-header {
+	margin: 0;
+	border: 0;
+}
+
+.page-title {
+    display: block;
+    background-image: url('https://www.sigmaintel.com/wp-content/uploads/2023/04/blog-pagetitle-min.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 106px;
+    padding-bottom: 106px;
+    position: relative;
+    padding: 28px 0 22px;
+    overflow: hidden;
+    background-position: center 85%;
+    background-repeat: no-repeat;
+    height: 30vh;
+    
+}
+
+.page-title-container{
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    padding-top: 8%;
+
+}
+
+@media screen and (max-width:768px) {
+    .page-title-container{
+        padding-top:16%;
+    }
+    
+}
+
+.before-title {
+    font-family: "Roboto", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1em;
+    color: #1d5377;
+    border-left: 5px solid #FD4A36;
+    margin: 0px 0px 0px -5px;
+    margin-bottom: 2%;
+    padding-left: 10px;
+    margin-top: 24%;
+}
+
+@media screen and (max-width:768px){
+    .page-title{
+        height: 28vh;
+    }
+    .before-title{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:992px){
+    .card1{
+       font-size: 80%;
+    }
+}
+
+.text-align{
+    text-align: center;
+    padding: 5vh 5vw 5vh 5vw;
+}
+
+.overlay {
+    opacity: 60%;
+    filter: alpha(opacity=60);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #071327;
+}
+
+.font-size{
+    height: 50px;
+    width: 50px;
+}
+
+.card1{
+    margin: 5px 0 5px 0;
+    height: 16vh;
+    padding: 2%;
+}
+
+.heading{
+    font-size: 36px;
+    margin: 10px 0px 10px 0px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    color: #1F242C;
+}
+
+.heading-section{
+    padding: 10% 5% 5% 5%;
+}
+
+p{
+color: #1d5377;  
+font-size: 120%;  
+}

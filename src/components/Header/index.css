@@ -1,0 +1,32 @@
+Nav.Link{
+color: black !important;
+}
+
+.bg-primary-color {
+    background: #1B1717 !important;  /* Primary */
+}
+
+.font-style__Maven-Pro {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.navbar-main{
+    font-weight: 700;
+    font-size: 24px;
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media  screen and (min-width:768px) {
+    .navbar-main1{
+        font-weight: 700;
+    font-size: 24px;
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        justify-content: space-around;
+    }
+}

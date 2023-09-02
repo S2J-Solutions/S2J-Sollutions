@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Header from './components/Header'
+import AboutUs from './components/AboutUs'
+import Contact from './components/Contact'
+import Home from './components/Home'
+import ItStaffing from './components/ItStaffing'
+import Carrer from './components/Carrer'
+import Training from './components/Training'
+import Footer from './components/Footer'
+import NotFound from './components/NotFound'
 
-export default App;
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
+const App = () => (
+  <BrowserRouter>
+    <Header />
+    <Switch>
+      <Route exact path="/" component={Contact} />
+      <Route exact path="/it-staffing" component={ItStaffing} />
+      <Route exact path="/about-us" component={AboutUs} />
+      <Route exact path="/carrer" component={Carrer} />
+      <Route exact path="/training" component={Training} />
+      <Route exact path="/contact" component={Home} />
+      <Route component={NotFound} />
+    </Switch>
+    <Footer />
+  </BrowserRouter>
+)
+
+export default App

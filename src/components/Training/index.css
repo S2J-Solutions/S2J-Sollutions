@@ -1,0 +1,57 @@
+.page-header-training {
+	margin: 0;
+	border: 0;
+}
+
+.page-title-training {
+    display: block;
+    background-image: url('https://www.sigmaintel.com/wp-content/uploads/2023/04/meeting-2284501_1920.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 106px;
+    padding-bottom: 106px;
+    position: relative;
+    padding: 28px 0 22px;
+    overflow: hidden;
+    background-position: center 85%;
+    background-repeat: no-repeat;
+    height: 30vh;
+    
+}
+
+.page-title-container-training{
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    padding-top: 8%;
+
+}
+
+@media screen and (max-width:768px) {
+    .page-title-container-training{
+        padding-top:16%;
+    }
+    
+}
+
+.overlay-training {
+    opacity: 60%;
+    filter: alpha(opacity=60);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #071327;
+}
+
+@media screen and (max-width:768px){
+    .page-title-training{
+        height: 28vh;
+    }}
+
+.carousel-container-trainning{
+    height: 70vh;
+}
