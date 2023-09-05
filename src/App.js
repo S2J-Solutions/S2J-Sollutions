@@ -19,12 +19,12 @@ const App = () => (
   <BrowserRouter>
     <Header />
     <Switch>
-      <Route exact path="/" component={Contact} />
+      <Route exact path="/" component={Home} />
       <Route exact path="/it-staffing" component={ItStaffing} />
       <Route exact path="/about-us" component={AboutUs} />
       <Route exact path="/carrer" component={Carrer} />
       <Route exact path="/training" component={Training} />
-      <Route exact path="/contact" component={Home} />
+      <Route exact path="/contact" component={Contact} />
       <Route component={NotFound} />
     </Switch>
     <Footer />

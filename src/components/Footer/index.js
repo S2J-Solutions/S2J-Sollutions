@@ -52,23 +52,23 @@ export default function Footer() {
                 </a>
               </p>
               <p style={{color:"#fff"}}> 
-                <a href='/' className='text-reset'>
+                <a href='/it-staffing' className='text-reset'>
                   It staffing
                 </a>
               </p>
               <p style={{color:"#fff"}}>
-                <a href='/' className='text-reset'>
+                <a href='/about-us' className='text-reset'>
                   About us
                 </a>
               </p>
               <p style={{color:"#fff"}}>
-                <a href='/' className='text-reset'>
+                <a href='/contact' className='text-reset'>
                   Carrer
                 </a>
               </p>
               <p style={{color:"#fff"}}>
-                <a href='/' className='text-reset'>
-                  Contact
+                <a href='/training' className='text-reset'>
+                  Training
                 </a>
               </p>
             </MDBCol>

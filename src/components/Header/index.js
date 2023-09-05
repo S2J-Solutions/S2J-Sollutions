@@ -14,11 +14,11 @@ class Header extends Component{
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto navbar-main1">
                         <Nav.Link as={Link} to="/" style={{color:'#fff'}} >Home</Nav.Link>
-                        <Nav.Link as={Link} to="/" style={{color:'#fff'}}>It Staffing</Nav.Link>
-                        <Nav.Link as={Link} to="/"  style={{color:'#fff'}}>About Us</Nav.Link>
-                        <Nav.Link as={Link} to="/" style={{color:'#fff'}}>Carrer</Nav.Link>
-                        <Nav.Link as={Link} to="/" style={{color:'#fff'}}>Training</Nav.Link>
-                        <Nav.Link as={Link} to="/" style={{color:'#fff'}}>Contact</Nav.Link>
+                        <Nav.Link as={Link} to="/it-staffing" style={{color:'#fff'}}>It Staffing</Nav.Link>
+                        <Nav.Link as={Link} to="/about-us"  style={{color:'#fff'}}>About Us</Nav.Link>
+                        <Nav.Link as={Link} to="/carrer" style={{color:'#fff'}}>Carrer</Nav.Link>
+                        <Nav.Link as={Link} to="/training" style={{color:'#fff'}}>Training</Nav.Link>
+                        <Nav.Link as={Link} to="/contact" style={{color:'#fff'}}>Contact</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
